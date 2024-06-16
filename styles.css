@@ -1,0 +1,27 @@
+/* Resetting default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the map container */
+#map {
+    height: 600px; /* Adjust height as needed */
+}
+
+/* Example styling for popup content */
+.leaflet-popup-content-wrapper {
+    background-color: #fff;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+    border-radius: 6px;
+}
+
+.leaflet-popup-content {
+    margin: 10px;
+    line-height: 1.4;
+}
+
+.leaflet-popup-tip-container {
+    display: none; /* Hide the default tip */
+}
